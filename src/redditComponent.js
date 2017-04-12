@@ -15,7 +15,7 @@ class Reddit extends Component {
 		}
 
 		componentDidMount() {
-				axios.get(`http://www.reddit.com/r/${this.props.subreddit}.json`)
+				axios.get(`https://www.reddit.com/r/${this.props.subreddit}.json`)
 						.then(res => {
 
 								const posts = res.data.data.children.map(obj => obj.data);
