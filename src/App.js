@@ -3,7 +3,6 @@ import logo from './logo.png';
 import './App.css';
 import Scroll from 'react-scroll'
 import {Reddit} from './redditComponent'
-import {Twitter} from './twitterComponent'
 
 class Header extends Component {
   render() {
@@ -79,9 +78,6 @@ class Content extends Component {
         </div>
         <div className="reddit" id="#reddit">
             <Reddit subreddit="Immunology"/>
-        </div>
-        <div className="tweets" id="#tweets">
-            <Twitter/>
         </div>
 
     </div>
