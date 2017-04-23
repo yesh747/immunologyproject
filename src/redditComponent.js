@@ -18,6 +18,8 @@ class Reddit extends Component {
 				axios.get(`https://www.reddit.com/r/${this.props.subreddit}.json`)
 						.then(res => {
 
+								console.log(res);
+
 								const posts = res.data.data.children.map(obj => obj.data);
 								this.setState({ posts });
 						});
@@ -26,10 +28,13 @@ class Reddit extends Component {
 		render() {
 				return (
 						<div>
-								<h1>{`/r/${this.props.subreddit}`}</h1>
+								<h1>{`Reddit Reads ${this.props.subreddit}`}</h1>
 								<ul>
 										{this.state.posts.map(post =>
-												<li key={post.id}><a href={post.url}>{post.title}</a></li>
+												<li key={post.id}>
+														<a href={post.url}>{post.title}</a>
+														<span> &nbsp;&nbsp; by {post.author}</span>
+												</li>
 										)}
 								</ul>
 						</div>

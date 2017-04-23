@@ -69,6 +69,35 @@
   padding-bottom: 20px;
 }
 
+
+.reddit{
+}
+
+  .reddit ul {
+    padding:0;
+  }
+
+  .reddit ul li {
+    list-style-type: none;
+    border: 1px solid #efefef;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 1px 1px #00b9be;
+  }
+
+  .reddit ul li a {
+    text-decoration: none;
+    color: #00b9be;
+    font-size: 16px;
+  }
+
+  .reddit ul li span {
+    color: #333333;
+    font-size: 10px;
+  }
+
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -87,4 +116,5 @@
   .App-nav {
     margin-top: inherit;
   }
+
 }

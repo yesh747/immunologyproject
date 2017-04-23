@@ -6,7 +6,8 @@
     "axios": "^0.16.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-scroll": "^1.4.8"
+    "react-scroll": "^1.4.8",
+    "twitter": "^1.7.0"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
