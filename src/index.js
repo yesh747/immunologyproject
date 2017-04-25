@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Header, Nav, Content} from './App';
+import {Header, Nav, Content, Footer} from './App';
 import './index.css';
 
 
@@ -18,4 +18,9 @@ ReactDOM.render(
 ReactDOM.render(
 		<Content />,
 		document.getElementById('content')
+);
+
+ReactDOM.render(
+		<Footer />,
+		document.getElementById('footer')
 );

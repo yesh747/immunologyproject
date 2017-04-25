@@ -3,6 +3,11 @@
   font-weight: 300;
 }
 
+a {
+  color: #00b9be;
+  text-decoration: none;
+}
+
 .header {
   height: 128px;
 }
@@ -84,7 +89,7 @@
     border: 1px solid #efefef;
     padding: 15px;
     margin: 10px;
-    box-shadow: 1px 1px #00b9be;
+    box-shadow: 1px 1px #999999;
   }
 
   .reddit ul li a {
@@ -117,6 +122,13 @@
     stroke: #ccc;
     stroke-width: 1.5px;
   }
+
+
+.footer {
+  padding: 30px;
+  background-color: #555555;
+  color: #ffffff;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

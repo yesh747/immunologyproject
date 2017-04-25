@@ -4,15 +4,15 @@ import Scroll from 'react-scroll';
 import {Reddit} from './redditComponent';
 import {BuckleyBonus} from './treeComponent';
 
-import logo from './logo.png';
-import nonspecific from './shomu_nonspecific_immunotherapy.png'
-import monoclonal from './janeway_monoclonal_antibodies.png'
-import immunecheckpoint from './werone_immunecheckpoint.png'
-import vaccine1 from './buzzle_vaccine1.png'
-import vaccine2 from './buzzle_vaccine2.png'
-import vaccine3 from './buzzle_vaccine3.png'
-import vaccine4 from './buzzle_vaccine4.png'
-import act from './rosenburg_restifo_act.png'
+import logo from './images/logo.png';
+import nonspecific from './images/shomu_nonspecific_immunotherapy.png'
+import monoclonal from './images/janeway_monoclonal_antibodies.png'
+import immunecheckpoint from './images/werone_immunecheckpoint.png'
+import vaccine1 from './images/buzzle_vaccine1.png'
+import vaccine2 from './images/buzzle_vaccine2.png'
+import vaccine3 from './images/buzzle_vaccine3.png'
+import vaccine4 from './images/buzzle_vaccine4.png'
+import act from './images/rosenburg_restifo_act.png'
 
 class Header extends Component {
   render() {
@@ -240,4 +240,21 @@ class Content extends Component {
   }
 }
 
-export { Header, Nav, Content }
+class Footer extends Component {
+
+    render() {
+        return(
+          <div className="footer">
+              <p>
+                  Created by Yeshwant Chillakuru and Christina Darwish
+              </p>
+              <p>
+                  Source code available on <a href="https://github.com/yesh747/immunologyproject">Github: yesh747</a>
+              </p>
+          </div>
+        );
+    }
+
+}
+
+export { Header, Nav, Content, Footer }
