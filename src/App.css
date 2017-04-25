@@ -22,11 +22,11 @@
   width: 100%;
 }
 
-.App-header h2 {
-  margin: 10px;
-  position: relative;
-  left: -40px;
-}
+  .App-header h2 {
+    margin: 10px;
+    position: relative;
+    left: -40px;
+  }
 
 .App-nav {
   float: right;
@@ -38,37 +38,39 @@
   z-index: 1;
 }
 
-.App-nav a {
-  float: right;
-  display: block;
-  padding: 14px 16px;
+  .App-nav a {
+    float: right;
+    display: block;
+    padding: 14px 16px;
 
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
 
-.App-nav a:hover {
-  font-weight: 300;
-  background-color: #ffffff;
-  color: #00b9be;
-}
+  .App-nav a:hover {
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #00b9be;
+  }
 
-.App-nav .active {
-  font-weight: 300;
-  background-color: #ffffff;
-  color: #00b9be;
-}
+  .App-nav .active {
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #00b9be;
+  }
 
 .content {
   margin: 40px;
   padding: 20px;
 }
 
-.content .topic {
-  padding-bottom: 20px;
-}
+  .content .topic {
+    padding-bottom: 20px;
+  }
 
+  .content .source {
+  }
 
 .reddit{
 }
