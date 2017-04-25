@@ -154,7 +154,7 @@ class BuckleyBonus extends Component {
 		render() {
 				return (
 						<div>
-								<h1>BuckleyBonus</h1>
+								<h1>Buckley Bonus!</h1>
 						</div>
 				);
 		}

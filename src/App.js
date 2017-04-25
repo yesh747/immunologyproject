@@ -249,7 +249,7 @@ class Footer extends Component {
                   Created by Yeshwant Chillakuru and Christina Darwish
               </p>
               <p>
-                  Source code available on <a href="https://github.com/yesh747/immunologyproject">Github: yesh747</a>
+                  Source code available on <a href="https://github.com/yesh747/immunologyproject">Github</a>
               </p>
           </div>
         );
