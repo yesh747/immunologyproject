@@ -120,7 +120,7 @@ class Content extends Component {
 
         </div>
         <div className="topic" id="topic4">
-            <h1>Immune Checkpoint Blockade</h1>
+            <h1>IMMUNE CHECKPOINT BLOCKAGE</h1>
             <figure style={{float: 'right'}}>
                 <img src={immunecheckpoint} style={{width: 350, fontSize:6}}/>
                 <figcaption>Source: <a href="http://werone.co/eng/immunotherapy-non-toxically-with-plants">Werone.co</a></figcaption>
@@ -155,7 +155,7 @@ class Content extends Component {
 
         </div>
         <div className="topic" id="topic5">
-            <h1>Vaccine Strategies</h1>
+            <h1>VACCINE STRATEGIES</h1>
             <p>
                 Because tumors in and of themselves are not strongly immunogenic, it was proposed that providing immunogenic agents to the tumor by delivering antigen or antigen fragments would initiate an immune response. William Coley, an American surgeon, first suggested this in 1891. He found that injecting Streptococcus bacteria into tumor cells caused them to shrink. Currently, scientists are attempting to create therapeutic vaccines based on this principle. The current vaccines in use and being researched can be broadly divided into tumor cell vaccines, dendritic cell vaccines, protein/peptide-based cancer vaccines, and genetic vaccines.
             </p>
@@ -201,7 +201,7 @@ class Content extends Component {
 
         </div>
         <div className="topic" id="topic6">
-            <h1>Adoptive Cell Transfer</h1>
+            <h1>ADOPTIVE CELL TRANSFER</h1>
             <figure style={{float: 'left'}}>
                 <img src={act} style={{width: 350}}/>
                 <figcaption style={{width: 350, margin: 'auto', display:'block'}}>Source: Rosenberg and Restifo, 2015 (2)</figcaption>
