@@ -28,7 +28,7 @@ class Reddit extends Component {
 		render() {
 				return (
 						<div>
-								<h1>{`Reddit Reads ${this.props.subreddit}`}</h1>
+								<h1>{`REDDIT READS IMMUNOLOGY`}</h1>
 								<ul>
 										{this.state.posts.map(post =>
 												<li key={post.id}>
