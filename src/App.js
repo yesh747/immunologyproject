@@ -65,10 +65,10 @@ class Content extends Component {
                 <span style={{fontWeight:700}}>Sources:</span>
                 <ol>
                     <li>
-                        "WHAT IS CANCER?" SEER Training: What Is Cancer? N.p., n.d. Web. 24 Apr. 2017.
+                        "WHAT IS CANCER?" SEER Training: What Is Cancer? N.p., n.d.
                     </li>
                     <li>
-                        Murphy, Kenneth, and Casey Weaver. <i>Janeway's immunobiology.</i> New York, NY: Garland Science/Taylor & Francis Group, LLC, 2017. Print.
+                        Murphy, Kenneth, and Casey Weaver. Janeway's immunobiology. New York, NY: Garland Science/Taylor & Francis Group, LLC, 2017.
                     </li>
                 </ol>
             </p>
@@ -80,14 +80,26 @@ class Content extends Component {
                 <figcaption style={{width: 250, margin: 'auto', display:'block'}}>Source: Shomu's Biology (1)</figcaption>
             </figure>
             <p>
-                The immune system can naturally defend against cancer cells, so one strategy is to augment the natural occurring immune response. To do this, immunotherapy must first help CTL-P (activated cytotoxic T-cells) overcome a immune-evasion technique used by tumor cells. Normally, for CTL-P to kill a cell, its T-cell receptor (TCR) must bind to an MHC Class I Receptor presenting an tumor specific/associated antigen on the tumor, AND the CTL-P CD28 (costimulatory molecule) must bind to B7 on the tumor. However, most successful tumors often do not express B7 because of genetic selection pressures, so no immune response takes place. One approach for immunotherapy is to transfect the tumor cells with the gene encoding B7 ligand to induce immune response with CTL-P (1).
+                The immune system can naturally defend against cancer cells, so one strategy is to augment the naturally occurring immune response. One mechanism to do this is by utilizing cytokines that will promote activation of immune cells or their migration to the tumor microenvironment. The two major cytokines currently approved for treatment are IL-2 and TNF-alpha.
             </p>
             <p>
-                A second approach of non-specific immune stimulation is to upregulate dendritic cell activity. Similar to before, tumor cells are transfected with the GM-CSF gene (granulocyte macrophage colony-stimulating factor). When expressed GM-CSF upregulates dendritic cells to increase cross presentation of tumor specific and tumor associated antigens (TSAs and TAAs). This then activates CTL-P, which eventually kills tumor (1).
+                IL-2 is a T cell growth factor that promotes expansion and differentiation of T lymphocytes. Because T cells are the main effector cells in cancer-related immune responses, increasing their numbers can non-specifically improve the chances that they will interact with and respond to the tumor cells. Treatment with IL-2 has currently been approved for treatment of metastatic melanoma and renal cell carcinoma.
+            </p>
+            <p>
+                TNF-alpha promotes vascular permeability that will allow for increased extravasation of lymphocytes and other immune cells from the blood into tissues containing tumor cells. Treatment with TNF-alpha has been approved for treatment of Stage III melanoma. Although therapy with these two cytokines has shown some efficacy in cancer treatment, they both act non-specifically and can lead to activation of several other cell types besides the tumor cells. This can lead, for example to capillary leak syndrome, hypotension, tachycardia, and peripheral edema in patients undergoing IL-2 treatment. Additionally, these cytokines have also been implicated in mechanisms of immune suppression. Both of these factors currently limit the effectiveness of anti-tumor responses by non-specific cytokine treatment (1).
+            </p>
+            <p>
+                To do this, immunotherapy must first help CTL-P (activated cytotoxic T-cells) overcome a immune-evasion technique used by tumor cells. Normally, for CTL-P to kill a cell, its T-cell receptor (TCR) must bind to an MHC Class I Receptor presenting an tumor specific/associated antigen on the tumor, AND the CTL-P CD28 (costimulatory molecule) must bind to B7 on the tumor. However, most successful tumors often do not express B7 because of genetic selection pressures, so no immune response takes place. One approach for immunotherapy is to transfect the tumor cells with the gene encoding B7 ligand to induce immune response with CTL-P (1).
+            </p>
+            <p>
+                A second approach of non-specific immune stimulation is to upregulate dendritic cell activity. Similar to before, tumor cells are transfected with the GM-CSF gene (granulocyte macrophage colony-stimulating factor). When expressed GM-CSF upregulates dendritic cells to increase cross presentation of tumor specific and tumor associated antigens (TSAs and TAAs). This then activates CTL-P, which eventually kills tumor (2).
             </p>
             <p>
                 <span style={{fontWeight:700}}>Sources:</span>
                 <ol>
+                    <li>
+                      Lee, Sylvia, and Kim Margolin. "Cytokines in cancer immunotherapy." Cancers 3.4 (2011): 3856-3893.
+                    </li>
                     <li>
                         "Cancer Immunotherapy." Shomu's Biology (2013). Youtube. Web. 23 Apr. 2017.
                     </li>
@@ -110,10 +122,10 @@ class Content extends Component {
                 <ol>
                     <span style={{fontWeight:700}}>Sources:</span>
                     <li>
-                        Murphy, Kenneth, and Casey Weaver. <i>Janeway's Immunobiology.</i> New York, NY: Garland Science/Taylor & Francis Group, LLC, 2017. Print.
+                        Murphy, Kenneth, and Casey Weaver. Janeway's immunobiology. New York, NY: Garland Science/Taylor & Francis Group, LLC, 2017.
                     </li>
                     <li>
-                        Weiner, Louis M., Rishi Surana, and Shangzi Wang. "Monoclonal antibodies: versatile platforms for cancer immunotherapy." <i>Nature Reviews Immunology</i> 10.5 (2010): 317-27. Web.
+                        Weiner, Louis M., Rishi Surana, and Shangzi Wang. "Monoclonal antibodies: versatile platforms for cancer immunotherapy." Nature Reviews Immunology 10.5 (2010): 317-27.
                     </li>
                 </ol>
             </p>
@@ -129,26 +141,26 @@ class Content extends Component {
                 Another avenue for potential treatment involves deactivating inhibitory signals that would prevent lymphocytes from initiating an immune response against the tumor. Antigen presenting cells interact with T cells via several receptors and co-receptors, each of which act as either positive or negative checkpoints for T cell activation. The combination of stimulatory and inhibitory inputs at these checkpoints determines if the lymphocyte will reach a necessary threshold to become activated.
             </p>
             <p>
-                Negative checkpoints involve inhibitory receptors such as CTLA-4 (cytotoxic T-lymphocyte-associated antigen 4) and PD-1 (programmed death 1) on T-lymphocytes. Normally, CTLA-4 acts to prevent autoreactive T cells from becoming activated by binding to B7 molecules, stimulatory molecules also located on the surface of antigen-presenting cells. Therefore, it is possible that using antibodies against CTLA-4 could lower the threshold necessary for T cell activation against tumor antigens. However, CTLA-4 is also found on the surface of regulatory T cells, which are important for preventing autoimmune responses by preventing T cell activation from recognition of self-antigen. Antibody binding to CTLA-4 on regulatory T cells could cause them to be targeted for destruction. Either of these mechanisms carry the risk of increasing the likelihood of an autoimmune reaction. (1) In a study conducted of patients with metastatic melanoma receiving CTLA-4 antibody ipilimumab, there was increased recognition of a cancer-testing antigen expressed by melanoma. Nevertheless, only 15% of patients responded successfully enough to treatment to induce long-term remission. As expected, these patients also carried an increased risk of developing autoimmunity (2).
+                Negative checkpoints involve inhibitory receptors such as CTLA-4 (cytotoxic T-lymphocyte-associated antigen 4) and PD-1 (programmed death 1) on T-lymphocytes. Normally, CTLA-4 acts to prevent autoreactive T cells from becoming activated by binding to B7 molecules, stimulatory molecules also located on the surface of antigen-presenting cells. Therefore, it is possible that using antibodies against CTLA-4 could lower the threshold necessary for T cell activation against tumor antigens. However, CTLA-4 is also found on the surface of regulatory T cells, which are important for preventing autoimmune responses by preventing T cell activation from recognition of self-antigen. Antibody binding to CTLA-4 on regulatory T cells could cause them to be targeted for destruction. Either of these mechanisms carry the risk of increasing the likelihood of an autoimmune reaction. (1) In a study conducted of patients with metastatic melanoma receiving CTLA-4 antibody ipilimumab, there was increased recognition of a cancer-testis antigen expressed by melanoma. Nevertheless, only 15% of patients responded successfully enough to treatment to induce long-term remission. As expected, these patients also carried an increased risk of developing autoimmunity (2).
             </p>
 
             <p>
-                Alternatively, researchers have targeted inhibitory receptor PD-1. Ligands of this receptor, PD-L1 and PD-L2 are expressed on tumor cells and inhibit activation of cytotoxic T cells. An antibody against PD-1 antibody (pembrolizumab, previously lambrolizumab) has shown efficacy in some melanoma patients, with a nearly 30% response rate in patients who have previously been treated (3). Another PD-1 antibody, nivolumab, has also been approved for treatment in metastatic melanoma patients and is currently being investigated as a potential drug for treatment of Hodgkin’s lymphoma (4).
+                Alternatively, researchers have targeted inhibitory receptor PD-1. Ligands of this receptor, PD-L1 and PD-L2, are expressed on tumor cells and inhibit activation of cytotoxic T cells. An antibody against PD-1 antibody (pembrolizumab, previously lambrolizumab) has shown efficacy in some melanoma patients, with a nearly 30% response rate in patients who have previously been treated (3). Another PD-1 antibody, nivolumab, has also been approved for treatment in metastatic melanoma patients and is currently being investigated as a potential drug for treatment of Hodgkin’s lymphoma (4).
             </p>
             <p className="source">
                 <span style={{fontWeight:700}}>Sources:</span>
                 <ol>
                     <li>
-                        Murphy, Kenneth, and Casey Weaver. <i>Janeway's Immunobiology.</i> New York, NY: Garland Science/Taylor & Francis Group, LLC, 2017. Print.
+                        Murphy, Kenneth, and Casey Weaver. <i>Janeway's Immunobiology.</i> New York, NY: Garland Science/Taylor & Francis Group, LLC, 2017.
                     </li>
                     <li>
-                        "Improved Survival with Ipilimumab in Patients with Metastatic Melanoma." <i>New England Journal of Medicine</i> 363.13 (2010): 711-23. Web.
+                        "Improved Survival with Ipilimumab in Patients with Metastatic Melanoma." <i>New England Journal of Medicine</i> 363.13 (2010): 711-23.
                     </li>
                     <li>
-                        "Safety and Tumor Responses with Lambrolizumab (Anti–PD-1) in Melanoma." <i>New England Journal of Medicine</i> 369.2 (2013): 134-44. Web.
+                        "Safety and Tumor Responses with Lambrolizumab (Anti–PD-1) in Melanoma." <i>New England Journal of Medicine</i> 369.2 (2013): 134-44.
                     </li>
                     <li>
-                        "PD-1 Blockade with Nivolumab in Relapsed or Refractory Hodgkin's Lymphoma." <i>New England Journal of Medicine</i> 372.4 (2015): 311-19. Web.
+                        "PD-1 Blockade with Nivolumab in Relapsed or Refractory Hodgkin's Lymphoma." <i>New England Journal of Medicine</i> 372.4 (2015): 311-19.
                     </li>
                 </ol>
             </p>
@@ -157,10 +169,10 @@ class Content extends Component {
         <div className="topic" id="topic5">
             <h1>VACCINE STRATEGIES</h1>
             <p>
-                Because tumors in and of themselves are not strongly immunogenic, it was proposed that providing immunogenic agents to the tumor by delivering antigen or antigen fragments would initiate an immune response. William Coley, an American surgeon, first suggested this in 1891. He found that injecting Streptococcus bacteria into tumor cells caused them to shrink. Currently, scientists are attempting to create therapeutic vaccines based on this principle. The current vaccines in use and being researched can be broadly divided into tumor cell vaccines, dendritic cell vaccines, protein/peptide-based cancer vaccines, and genetic vaccines.
+                Because tumors in and of themselves are not strongly immunogenic, it was proposed that providing immunogenic agents to the tumor by delivering antigen or antigen fragments would initiate an immune response, beginning with innate immune mechanisms and then by interaction of antigen presenting cells with adaptive immune cells. William Coley, an American surgeon, first suggested this in 1891. He found that injecting Streptococcus bacteria into tumor cells caused them to shrink. Currently, scientists are attempting to create therapeutic vaccines based on this principle. The current vaccines in use and being researched can be broadly divided into tumor cell vaccines, dendritic cell vaccines, protein/peptide-based cancer vaccines, and genetic vaccines.
             </p>
             <p>
-                There are two types of tumor cell vaccines. The first is made by extracting the patient’s own tumor cells, irradiating them, and adding an adjuvant that would be recognizable by the immune system. Such autologous tumor vaccines can also be enhanced by genetic modification that would provide additional immunostimulatory molecules such as B7 and GM-CSF in order to promote an immune response. However, this strategy has limitations because it requires a significant number of tumor cells to be isolated, thus restricting the type and stage of cancer that can be treated by this method.
+                There are two types of tumor cell vaccines. The first is made by extracting the patient’s own tumor cells, irradiating them, and adding an adjuvant that would be recognizable by the immune system. Adjuvants are substances that are added to vaccines in order to promote immune recognition and response. For example, an adjuvant imiquimod can activate TLRs 7 and 8 which can later results in an increase of co-stimulatory molecule presentation and pro-inflammatory cytokine production by dendritic cells (1). Such autologous tumor vaccines can also be enhanced by genetic modification that would provide additional immunostimulatory molecules such as B7 and GM-CSF. However, this strategy has limitations because it requires a significant number of tumor cells to be isolated, thus restricting the type and stage of cancer that can be treated by this method.
             </p>
             <p>
                 Another tumor cell vaccine, the allogeneic whole tumor cell vaccine, consists of combining human tumor cell lines that have an established repertoire of tumor cell antigens at play. The advantage of this method is that this type of vaccine can be standardized for large-scale production and can also be manipulated to express additional immunostimulatory molecules.
@@ -184,7 +196,7 @@ class Content extends Component {
                 <figcaption style={{width: 250, margin: 'auto', display:'block'}}>Source: <a href="http://www.buzzle.com/articles/strategies-for-cancer-vaccine-development.html">buzzle.com</a></figcaption>
             </figure>
             <p>
-                Finally, genetic vectors can also be used that will lead to expression of antigen fragments through DNA, RNA or viral vaccines. For example, DNA vaccines are bacterial plasmids encoding tumor antigen that can be targeted by cellular and humoral immunity. This type of vaccine can be combined with immunostimulatory agents such as TLR agonists in order to increase the likelihood of an antibody response. They also hold the additional advantage in that they are unlikely to cause an autoimmune response because they are degraded and cleared rapidly. Current obstacles in this technique, however, include that the associated helper T cell response is short-lived and subsequent antibody response decreases over time. Additionally, while these vaccines have shown promise in mouse models, they have failed to translate effectively into non-human primates and humans.
+                Finally, genetic vectors can also be used that will lead to expression of antigen fragments through DNA, RNA or viral vaccines. For example, DNA vaccines are bacterial plasmids encoding tumor antigen that can be targeted by cellular and humoral immunity. This type of vaccine can be combined with immunostimulatory agents such as TLR agonists in order to increase the likelihood of an antibody response. They also hold the additional advantage in that they are unlikely to cause an autoimmune response because they are degraded and cleared rapidly. Current obstacles in this technique, however, include that the associated helper T cell response is short-lived and subsequent antibody response decreases over time. Additionally, while these vaccines have shown promise in mouse models, they have failed to translate effectively into non-human primates and humans (2).
             </p>
             <figure style={{float: 'center'}}>
                 <img src={vaccine4} style={{width: 500, margin: 'auto', display:'block'}}/>
@@ -193,6 +205,9 @@ class Content extends Component {
             <p className="source">
                 <span style={{fontWeight:700}}>Sources:</span>
                 <ol>
+                    <li>
+                        Steinhagen, Folkert et al. “TLR-Based Immune Adjuvants.” Vaccine 29.17 (2011): 3341–3355.
+                    </li>
                     <li>
                         Guo, Chunqing, et al. "Therapeutic cancer vaccines: past, present and future." <i>Advances in cancer research</i> 119 (2013): 421.
                     </li>

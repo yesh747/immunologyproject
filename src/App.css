@@ -123,6 +123,13 @@ a {
     stroke-width: 1.5px;
   }
 
+  .node text.info {
+      width:40px;
+  }
+
+  .node rect {
+    fill: none;
+  }
 
 .footer {
   padding: 30px;

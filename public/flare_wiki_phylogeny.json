@@ -1,0 +1,287 @@
+{
+  "name": "O.G. (LUCA)",
+  "children": [
+    {
+      "name": "Bacteria",
+      "description":"",
+      "children": [
+        {
+          "name": "Aquifex",
+          "description":""
+        },
+        {
+          "name": "",
+          "children": [
+            {"name": "Thermotoga", "description": ""},
+            {"name": "Green Filamentous Bacteria", "description": ""},
+            {"name": "", "description": "",
+              "children":[
+                {"name":"Bacteroides Cytophaga", "description": "",
+                  "children": [
+                    {"name":"Gram positive bacteria", "description": ""},
+                    {"name":"Planctomyces", "description":""},
+                    {"name":"","description":"",
+                      "children": [
+                        {"name":"Cyanobacteria", "description":""},
+                        {"name":"", "description":"",
+                        "children":[
+                          {"name":"Spirochetes", "description":""},
+                          {"name":"", "description":"",
+                            "children":[
+                              {"name":"Proteobacteria", "description":""}
+                            ]
+                          }
+                        ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Archaea",
+      "description":"",
+      "children": [
+        {"name": "", "description": "",
+          "children":[
+            {"name":"Thermoproteus", "description":""},
+            {"name":"Pyrodicticum", "description":""}
+          ]
+        },
+        {
+          "name": "",
+          "description": "",
+          "children": [
+            {
+              "name": "T. celer",
+              "description": ""
+            },
+            {
+              "name": "",
+              "description": "",
+              "children": [
+                {
+                  "name": "Methanococcus",
+                  "description": ""
+                },
+                {
+                  "name": "",
+                  "description": "",
+                  "children": [
+                    {
+                      "name": "Methanobacterium",
+                      "description": ""
+                    },
+                    {
+                      "name": "",
+                      "description": "",
+                      "children": [
+                        {
+                          "name": "Methanosarcina",
+                          "description": ""
+                        },
+                        {
+                          "name": "Halophiles",
+                          "description": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eukaryota",
+      "children": [
+        {"name":"Diplomonads", "description":""},
+        {"name":"", "description": "",
+          "children":[
+            {"name":"Microsporidia to Ciliates", "description":""},
+            {
+                "name": "",
+                "description": "",
+                "children": [
+                  {"name":"Plants", "description":""},
+                  {"name":"Fungi", "description":""},
+                  {"name":"Animal", "description":"",
+                    "children":[
+                      {"name":"Non-humans", "description":""},
+                      {
+                        "name": "Humans",
+                        "description": "",
+                        "children": [
+                          {
+                            "name": "Professor Buckley",
+                            "description": "",
+                            "children": [
+                              {
+                                "name": "Elizabeth",
+                                "description": ""
+                              },
+                              {
+                                "name": "John",
+                                "description": ""
+                              },
+                              {
+                                "name": "Dheeraj",
+                                "description": ""
+                              },
+                              {
+                                "name": "Shane",
+                                "description": ""
+                              },
+                              {
+                                "name": "Nazia",
+                                "description": ""
+                              },
+                              {
+                                "name": "Sarah",
+                                "description": ""
+                              },
+                              {
+                                "name": "Emily",
+                                "description": ""
+                              },
+                              {
+                                "name": "Ranjit",
+                                "description": ""
+                              },
+                              {
+                                "name": "Conor",
+                                "description": ""
+                              },
+                              {
+                                "name": "Shayna",
+                                "description": ""
+                              },
+                              {
+                                "name": "Dean",
+                                "description": ""
+                              },
+                              {
+                                "name": "Heather",
+                                "description": ""
+                              },
+                              {
+                                "name": "David",
+                                "description": ""
+                              },
+                              {
+                                "name": "Visha",
+                                "description": ""
+                              },
+                              {
+                                "name": "Muhammad",
+                                "description": ""
+                              },
+                              {
+                                "name": "Admad",
+                                "description": ""
+                              },
+                              {
+                                "name": "Melanie",
+                                "description": ""
+                              },
+                              {
+                                "name": "Emilia",
+                                "description": ""
+                              },
+                              {
+                                "name": "Maya",
+                                "description": ""
+                              },
+                              {
+                                "name": "Yash",
+                                "description": ""
+                              },
+                              {
+                                "name": "Xinran",
+                                "description": ""
+                              },
+                              {
+                                "name": "Ariana",
+                                "description": ""
+                              },
+                              {
+                                "name": "Kyle",
+                                "description": ""
+                              },
+                              {
+                                "name": "Sean",
+                                "description": ""
+                              },
+                              {
+                                "name": "Kevin",
+                                "description": ""
+                              },
+                              {
+                                "name": "Adrienne",
+                                "description": ""
+                              },
+                              {
+                                "name": "Alyssa",
+                                "description": ""
+                              },
+                              {
+                                "name": "Yeshwant",
+                                "description": ""
+                              },
+                              {
+                                "name": "Christina",
+                                "description": ""
+                              },
+                              {
+                                "name": "Zahra",
+                                "description": ""
+                              },
+                              {
+                                "name": "Claire",
+                                "description": ""
+                              },
+                              {
+                                "name": "Christabel",
+                                "description": ""
+                              },
+                              {
+                                "name": "Tim",
+                                "description": ""
+                              },
+                              {
+                                "name": "Grace",
+                                "description": ""
+                              },
+                              {
+                                "name": "Tyler",
+                                "description": ""
+                              },
+                              {
+                                "name": "Alex",
+                                "description": ""
+                              },
+                              {
+                                "name": "Hannah",
+                                "description": ""
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

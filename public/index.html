@@ -25,6 +25,7 @@
     <div id="buckleybonus"></div>
 
   <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="//d3plus.org/js/d3plus.js"></script>
   <script>
 
     var margin = {top: 20, right: 120, bottom: 20, left: 120},
@@ -85,7 +86,38 @@
       var nodeEnter = node.enter().append("g")
               .attr("class", "node")
               .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-              .on("click", click);
+              .on("click", click)
+              .on("mouseover", function(d) {
+                var g = d3.select(this); // The node
+                // The class is used to remove the additional text later
+
+                var container = g.append('rect')
+                  .classed('shape', true)
+                  .attr('height', 150)
+                  .attr('width', 150)
+                  .attr('x', 10)
+                  .attr('y', 10)
+
+                var info = g.append('text')
+                  .classed('wrap', true)
+                  .attr("id","rectWrap")
+                  .attr('x', 10)
+                  .attr('y', 15)
+                  .text(d.description);
+
+                var defaults = {
+                  "width": 150,
+                  "height": 200,
+                  "resize": true
+                  }
+                d3plus.textwrap()
+                  .container(d3.select("text#rectWrap"))
+                  .draw();
+              })
+              .on("mouseout", function() {
+                // Remove the info text on mouse out.
+                d3.select(this).select('text.wrap').remove();
+              });
 
       nodeEnter.append("circle")
               .attr("r", 1e-6)
@@ -150,10 +182,20 @@
 
       // Stash the old positions for transition.
       nodes.forEach(function(d) {
-        d.x0 = d.x;
-        d.y0 = d.y;
-      });
-    }
+          d.x0 = d.x;
+          d.y0 = d.y;
+        });
+      }
+
+    var defaults = {
+      "width": 300,
+      "height": 200,
+      "resize": true
+      }
+    d3plus.textwrap()
+      .config(defaults)
+      .container(d3.select("text#rectWrap"))
+      .draw();
 
     // Toggle children on click.
     function click(d) {

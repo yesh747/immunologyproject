@@ -1,280 +1,243 @@
 {
-  "name": "O.G. (LUCA)",
-  "children": [
+  "name":"Bacteria",
+  "description":"Can integrate portions of bacteriophage DNA into genome through clustered regularly spaced interspersed short palindromic repeats (CRISPRs); locus with viral DNA gets transcribed and then translated into a set of nucleases, cas nucleases, which can use the transcribed RNAs as guides to survey the cytosol for bacteriophage infection",
+  "children":[
     {
-      "name": "Bacteria",
-      "children": [
-        {
-          "name": "Aquifex"
-        },
-        {
-          "name": "",
-          "children": [
-            {"name": "Thermotoga", "size": 3534},
-            {"name": "Green Filamentous Bacteria", "size": 5731},
-            {"name": "", "size": 7840,
-              "children":[
-                {"name":"Bacteroides Cytophaga", "size": 3283,
-                  "children": [
-                    {"name":"Gram positive bacteria", "size": 3214},
-                    {"name":"Planctomyces", "size":3213},
-                    {"name":"","size":"",
-                      "children": [
-                        {"name":"Cyanobacteria", "size":3213},
-                        {"name":"", "size":3213,
-                        "children":[
-                          {"name":"Spirochetes", "size":3213},
-                          {"name":"", "size":3213,
-                            "children":[
-                              {"name":"Proteobacteria", "size":3213}
-                            ]
-                          }
-                        ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "name":"Plants",
+      "description":"Membrane bound pattern recognition receptors; cytosolic system of Resistance (R) genes, which code for a specific set of LRR proteins responsible for pathogen recognition"
     },
     {
-      "name": "Archaea",
-      "children": [
-        {"name": "", "size": 17010,
-          "children":[
-            {"name":"Thermoproteus", "size":3213},
-            {"name":"Pyrodicticum", "size":3213}
-          ]
+      "name":"Animals",
+      "description":" ",
+      "children":
+      [
+        {
+          "name":"Cnidarians",
+          "description":"Toll signaling pathway introduced"
         },
         {
-          "name": "",
-          "size": 5842,
-          "children": [
+          "name":"Other Species",
+          "description":" ",
+          "children":
+          [
             {
-              "name": "T. celer",
-              "size": 3213
-            },
-            {
-              "name": "",
-              "size": 3213,
-              "children": [
+              "name":"Dueterosomes",
+              "description":"Require intermediary molecule Spatzle to initiate Toll signaling; have a molecule DSCAM (Down syndrome cascade adhesion molecule) coded for by alternative splicing of 22 exons that result in different variants theoretically responsible for variable immune responses",
+              "children":
+              [
                 {
-                  "name": "Methanococcus",
-                  "size": 3214
+                  "name":"Eldysozoa (e.g. Drosophila)",
+                  "description":" "
                 },
                 {
-                  "name": "",
-                  "size": 3213,
-                  "children": [
+                  "name":"Lophotrochozoa",
+                  "description":" ",
+                  "children":
+                  [
                     {
-                      "name": "Methanobacterium",
-                      "size": 3214
+                      "name":"Biomphalara glabrata (Freshwater Snail)",
+                      "description":"Pathogen recognition mediated by FREPs (fibrinogen-related proteins), immunoglobulins linked to a fibrinogen domain"
                     },
                     {
-                      "name": "",
-                      "size": 3213,
-                      "children": [
+                      "name":"Hawaiian Bobtail Squid",
+                      "description":"Only one species of bacteria, Vibrio fischeri, lives in its intestine; used as a model organism for understanding animal-bacterial symbiotic relationships"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name":"Other Species",
+              "description":" ",
+              "children":
+              [
+                {
+                  "name":"Echinoderms (Sea Urchins & Starfish)",
+                  "description":"Have an expanded family of pattern recognitions receptors (TLRs and NLRs), express families of 185/333 proteins which can recognize a variety of pathogen associated molecular patterns (PAMPs)"
+                },
+                {
+                  "name":"Other Species",
+                  "description":" ",
+                  "children":
+                  [
+                    {
+                      "name":"Jawless Vertebrates (Lamprey & Hagfish)",
+                      "description":"Have a variety of LRRs similar in proportion to the diversity of immunoglobulins in mammals; use variable lymphocyte receptor (VLR) as alternative adaptive immune system instead of immunoglobulin (Ig)-based receptors used in jawed vertebrates; have secreted form of VLR similar to antibodies"
+                    },
+                    {
+                      "name":"Jawed Vertebrates",
+                      "description":"Rag-mediated immunoglobulin-based adaptive immunity begins right before sharks/rays",
+                      "children":
+                      [
                         {
-                          "name": "Methanosarcina",
-                          "size": 3214
+                          "name": "Humans",
+                          "description": " ",
+                          "children": [
+                            {
+                              "name": "Professor Buckley",
+                              "description": " ",
+                              "children": [
+                                {
+                                  "name": "Elizabeth",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "John",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Dheeraj",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Shane",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Nazia",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Sarah",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Emily",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Ranjit",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Conor",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Shayna",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Dean",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Heather",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "David",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Visha",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Muhammad",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Admad",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Melanie",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Emilia",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Maya",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Yash",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Xinran",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Ariana",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Kyle",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Sean",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Kevin",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Adrienne",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Alyssa",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Yeshwant",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Christina",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Zahra",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Claire",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Christabel",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Tim",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Grace",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Tyler",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Alex",
+                                  "description": " "
+                                },
+                                {
+                                  "name": "Hannah",
+                                  "description": " "
+                                }
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "name": "Halophiles",
-                          "size": 3214
+                          "name":"Non-humans",
+                          "description":" "
                         }
                       ]
                     }
                   ]
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Eukaryota",
-      "children": [
-        {"name":"Diplomonads", "size":31232},
-        {"name":"", "size":21312,
-          "children":[
-            {"name":"Microsporidia to Ciliates", "size":31232},
-            {
-                "name": "",
-                "size": 21312,
-                "children": [
-                  {"name":"Plants", "size":31232},
-                  {"name":"Fungi", "size":31232},
-                  {"name":"Animal", "size":31232,
-                    "children":[
-                      {"name":"Non-humans", "size":31232},
-                      {
-                        "name": "Humans",
-                        "size": 21312,
-                        "children": [
-                          {
-                            "name": "Professor Buckley",
-                            "size": 3124,
-                            "children": [
-                              {
-                                "name": "Elizabeth",
-                                "size": 31232
-                              },
-                              {
-                                "name": "John",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Dheeraj",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Shane",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Nazia",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Sarah",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Emily",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Ranjit",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Conor",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Shayna",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Dean",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Heather",
-                                "size": 31232
-                              },
-                              {
-                                "name": "David",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Visha",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Muhammad",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Admad",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Melanie",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Emilia",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Maya",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Yash",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Xinran",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Ariana",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Kyle",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Sean",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Kevin",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Adrienne",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Alyssa",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Yeshwant",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Christina",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Zahra",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Claire",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Christabel",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Tim",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Grace",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Tyler",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Alex",
-                                "size": 31232
-                              },
-                              {
-                                "name": "Hannah",
-                                "size": 31232
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
             }
           ]
         }
